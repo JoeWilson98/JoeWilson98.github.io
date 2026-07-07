@@ -4,20 +4,21 @@
     <title>Joe Wilson CV</title>
 
     <style>
-        #background-video {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            object-fit: cover;
-            z-index: -1;
-}
-            body {
+        body {
+            background: black;
+            color: #00ff00;
+            font-family: monospace;
             margin: 0;
-            overflow-x: hidden;
 }
-    
+        .terminal {
+    width: 80%;
+    margin: 100px auto;
+    font-size: 35px;
+}
+
+#typing {
+    white-space: pre-line;
+}
 
         .typewriter {
             overflow: hidden;
@@ -60,9 +61,7 @@
 </head>
 
 <body>
-    <video autoplay muted loop playsinline id="background-video">
-    <source src="https://joewilson98.github.io/images/17076-278405108_medium.mp4" type="video/mp4">
-    </video>
+   
 
     <h1 class="typewriter" style="text-align: center; font-family: monospace; font-weight: bold; color:black; font-size: 50px">
         Joe Wilson
